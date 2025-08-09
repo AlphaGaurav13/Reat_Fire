@@ -1,11 +1,16 @@
 
 
- 
+import Gaurav from './gaurav';
 
 function App() { 
 
   return (
-   <h1>Gaurav aur React With Vite</h1>
+    // to return multiple thing we have to use the fragment
+    <> 
+    <Gaurav/>
+    <h1>Hello main dusra component huun!</h1>
+    </>
+    
   )
 }
 
