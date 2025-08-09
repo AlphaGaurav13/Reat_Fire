@@ -1,6 +1,8 @@
 function Gaurav() {
+
+  const oye = "Gaurav is Simple";
   return (
-    <h3>Gaurav is ready now</h3>
+    <h3>Gaurav is ready now {oye}</h3>
   )
 }
 
