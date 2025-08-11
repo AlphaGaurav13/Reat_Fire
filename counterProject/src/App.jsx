@@ -13,10 +13,27 @@ function App() {
 
   const addValue = () => {
     // console.log("Value added", Math.random());
-    if(counter < 20)  {
-      counter++;
-      setCounter(counter);
-    }
+    // if(counter < 20)  { //Homework
+    //   counter++;
+    //   setCounter(counter);
+    // }
+
+    //Concept of badges
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);
+    // setCounter(counter + 1);  //if add the value the increament will be of only one every time because of the state
+    // //so we have to use the concept of callbacks
+    // setCounter(counter + 1);
+
+    setCounter(prevCounter => prevCounter + 1);
+        setCounter(prevCounter => prevCounter + 1);
+
+            setCounter(prevCounter => prevCounter + 1);
+
+                setCounter(prevCounter => prevCounter + 1);
+
+
   }
 
   return (
